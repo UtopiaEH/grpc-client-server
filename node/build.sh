@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PROTO_SRC_DIR=../../proto
-PROTO_DES_DIR=../../proto/generated
+PROTO_SRC_DIR=./../proto
+PROTO_DES_DIR=./../proto/generated
 
 # Create the directory for generated files
 mkdir -p $PROTO_DES_DIR
@@ -9,8 +9,8 @@ mkdir -p $PROTO_DES_DIR
 
 # Get the absolute path to grpc_tools_node_protoc_plugin
 
-GRPC_TOOLS_NODE_PROTOC_PLUGIN_JS_PATH=../node_modules/.bin/grpc_tools_node_protoc_plugin
-GRPC_TOOLS_NODE_PROTOC_PLUGIN_TS_PATH=../node_modules/.bin/protoc-gen-ts
+GRPC_TOOLS_NODE_PROTOC_PLUGIN_JS_PATH=./node_modules/.bin/grpc_tools_node_protoc_plugin
+GRPC_TOOLS_NODE_PROTOC_PLUGIN_TS_PATH=./node_modules/.bin/protoc-gen-ts
 
 # Generate JavaScript code
 npx grpc_tools_node_protoc \
