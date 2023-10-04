@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PROTO_SRC_DIR=./../proto
-PROTO_DES_DIR=./../proto/generated
+PROTO_DES_DIR=./generated
 
 # Create the directory for generated files
 mkdir -p $PROTO_DES_DIR
