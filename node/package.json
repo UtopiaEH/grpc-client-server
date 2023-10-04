@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "sh src/build.sh",
+    "build": "sh build.sh",
     "server": "ts-node server.ts"
   },
   "author": "",

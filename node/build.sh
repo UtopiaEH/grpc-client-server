@@ -1,7 +1,11 @@
 #!/bin/bash
 
-PROTO_DES_DIR=../../proto/generated
 PROTO_SRC_DIR=../../proto
+PROTO_DES_DIR=../../proto/generated
+
+# Create the directory for generated files
+mkdir -p $PROTO_DES_DIR
+#mkdir -p $PROTO_SRC_DIR
 
 # Get the absolute path to grpc_tools_node_protoc_plugin
 
